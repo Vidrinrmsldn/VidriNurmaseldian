@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.center-caption {
+    text-align: center;
+    top: 35%;
+    height: auto;
+    max-height: 120px;
+}
+
+.big-text {
+    color: purple;
+    font-size: 45pt;
+    font-weight: 700;
+}
+
+.big-text-black {
+    color: black;
+    font-size: 50pt;
+    font-weight: 1000;
+}
+
+.spacer {
+    height: 10px;
+    background-color: white;
+}
+
+.two-box {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.center-dis {
+    text-align: center;
+    color: white;
+    font-size: 15pt;
+}
+.center-dist {
+    align-self: center;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+}
+
+i {
+    color: white;
+
+}
+@media (max-width: 576px) {
+    .center-caption{
+        top: 5%;
+    }
+    .big-text{
+        font-size: 20pt;
+    }
+    .center-dis{
+        font-size: 10pt;
+        text-align: center;
+    }
